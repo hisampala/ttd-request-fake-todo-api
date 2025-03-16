@@ -1,0 +1,18 @@
+{
+  "name": "bun-tdd-api-rest",
+  "module": "./src/program.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "test":"bun test"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@effect/schema": "^0.75.5",
+    "effect": "^3.13.11"
+  }
+}
